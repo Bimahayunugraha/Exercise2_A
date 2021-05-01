@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A0D0A"
+    android:orientation="vertical"
+    tools:context=".LihatDataTeman">
+
+    <TextView
+        android:id="@+id/tvDetailKontak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#081330"
+        android:ems="14"
+        android:padding="10pt"
+        android:text="@string/tvLihatData"
+        android:gravity="center_horizontal"
+        android:textColor="#25DFFF"
+        android:textSize="14pt"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/contacts"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/back_insert_data"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvNamaKontak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tNama"
+            android:textSize="11pt"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/back_insert_data"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvNomorTelepom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tNotel"
+            android:textSize="11pt"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
